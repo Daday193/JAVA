@@ -1,0 +1,11 @@
+O sistema permitira
+1) Cadastro de clientes com mas de uma opção de endereço
+2) Visualização dos dados de cada cliente e histórico
+3) Edição ou exclusão de clientes previamente cadastrado
+4) Agendar data e hora da próxima visita
+5) Lembrete para próxima visita. Terá uma visualização fácil das datas e clientes que deverá realizar as visitas, podendo ter alguns alertas como, quando estiver aproximando da data uns 15 dias representar uma cor amarela, quando passar da data representar uma cor vermelha na intenção de chamar atenção.
+6) Lista de serviços agendada para o dia
+7) Geração de numero de ordem de serviço O.S automática
+8) histórico dos equipamento do cliente
+9) Financias da empresa, conta a paga e a receber
+10) Gerenciamento de fluxo de caixa 

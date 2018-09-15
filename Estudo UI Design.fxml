@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="235.0" style="-fx-background-color: #0747A6;" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="-9.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton contentDisplay="TOP" layoutX="50.0" layoutY="55.0" minWidth="50.0" prefHeight="31.0" prefWidth="50.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Caixa" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" layoutX="56.0" layoutY="86.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Cadastros" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" layoutX="57.0" layoutY="284.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Relatórios" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="67.0" layoutY="123.0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="138.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Cadastro de Clientes" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="67.0" layoutY="160.0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Cadastro Prestadores" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="60.0" layoutY="200.0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="144.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Cadastro Produtos" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="60.0" layoutY="238.0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="144.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Cadastro Serviços" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="TOP_CENTER" contentDisplay="RIGHT" layoutX="67.0" layoutY="315.0" mouseTransparent="true" nodeOrientation="LEFT_TO_RIGHT" prefHeight="31.0" prefWidth="144.0" ripplerFill="#111111" snapToPixel="false" style="-fx-background-color: #0747A6;" text="Relatório de Vendas" textFill="#f7f7f8" textOverrun="CLIP">
+               <font>
+                  <Font name="Bitstream Vera Sans" size="1.0" />
+               </font>
+            </JFXButton>
+            <AnchorPane layoutX="4.0" prefHeight="407.0" prefWidth="35.0">
+               <children>
+                  <Icon blendMode="SRC_ATOP" content="VIEW_HEADLINE" layoutX="7.0" layoutY="23.0">
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                  </Icon>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <WebView layoutX="267.0" prefHeight="400.0" prefWidth="343.0" />
+   </children>
+</AnchorPane>
